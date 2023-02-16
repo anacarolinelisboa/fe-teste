@@ -1,0 +1,82 @@
+@font-face
+    font-family: 'Open-Sans'
+    src: url('../fontes/OpenSans-Regular.woff') format('woff')
+    font-weight: normal
+    font-style: normal
+    font-display: swap
+*
+    font-family: 'Open-Sans'
+
+body
+    font-family: 'Open-Sans'
+    background-color: white !important
+    header.site-header
+        width: 100%
+        max-width: 100%
+        background: black
+        padding: 10px 0
+        .site-title a, .site-title
+            font-weight: bold
+            color: white
+            letter-spacing: 1px
+            font-family: 'Open-Sans'
+    #content
+        h1, h2, h3, h4, h5, h6
+            font-weight: 700
+            font-family: 'Open-Sans'
+            color: #222222
+        p            
+            font-size: 16px
+            line-height: 26px
+        p, small, span, strong
+            font-family: 'Open-Sans'
+            color: #222222
+        h1 
+            font-size: 26px
+            line-height: 30px 
+        h2
+            font-size: 20px
+            line-height: 24px
+        h3
+            font-size: 16px
+            line-height: 22px 
+        h4
+            font-size: 14px
+            line-height: 19px
+        .card-style 
+            .data-hora
+                font-size: 12px
+            .link-img 
+                display: block
+                img 
+                    border-radius: 10px 
+        .col-publicidade
+            background-color: #D2D2D2
+            border-radius: 10px
+            min-height: 200px
+    &.page-template-page-listagem #content 
+        .topo-listagem
+            background: #222222
+            margin-top: -30px !important
+            margin-bottom: -35px !important 
+            height: 60px
+        .box-titulo-page
+            h1
+                color: #ED686B
+                background: #333333
+                border-radius: 5px
+    &.single #content 
+        .box-data-compartilhar
+            background: #E9E9E9
+            border-radius: 5px
+            .data-hora b
+                font-size: 12px
+        .box-imagem img
+            height: auto !important
+            border-radius: 10px 
+            
+@media only screen and (max-width: 768px)
+    body #content 
+        .card-style .nome-post
+            font-size: 16px
+            line-height: 22px
